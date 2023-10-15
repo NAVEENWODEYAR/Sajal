@@ -7,7 +7,7 @@ public class Test
 {
 	private final static Logger log = LogManager.getLogger(Test.class);
 	
-	static public  void getLog()
+	static public void getLog()
 	{
 		System.out.println("\n Logging levels,");
 		log.trace("\nFrom trace(),");
@@ -21,6 +21,7 @@ public class Test
 	public static void main(String[] args) 
 	{
 		System.out.println("\nWelcome");
+		getLog();
 	}
 
 }
