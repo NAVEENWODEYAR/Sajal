@@ -5,7 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Sajal</name>
   <description>arabic word</description>
-  <properties>
-	  
-  </properties>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 </project>
