@@ -9,6 +9,7 @@ public class Test
 	
 	static public void getLog()
 	{
+		// Priorities, All>TRACE>DEBUG>INFO>WARN>ERROR>FATAL>OF
 		System.out.println("\n Logging levels,");
 		log.trace("\nFrom trace(),");
 		log.info("\nFrom info(),");
