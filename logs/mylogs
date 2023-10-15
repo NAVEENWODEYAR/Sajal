@@ -1,0 +1,12 @@
+2023-10-15 16:56:07,063 - com.log.Test [getLog] -(TRACE) 
+From trace(), 
+2023-10-15 16:56:07,075 - com.log.Test [getLog] -(INFO) 
+From info(), 
+2023-10-15 16:56:07,077 - com.log.Test [getLog] -(DEBUG) 
+From debug(), 
+2023-10-15 16:56:07,079 - com.log.Test [getLog] -(WARN) 
+From warn(), 
+2023-10-15 16:56:07,082 - com.log.Test [getLog] -(FATAL) 
+From fatal(), 
+2023-10-15 16:56:07,083 - com.log.Test [getLog] -(ERROR) 
+Ffom error(), 
