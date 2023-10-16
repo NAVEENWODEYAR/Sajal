@@ -24,6 +24,7 @@ public class SelectQuery
 						{
 							int id = rs.getInt("bikeId");
 							String name = rs.getString("bikeName");
+							System.out.println("\nBikeId:"+id+" ,BikeName:"+name);
 						}
 		// 4. Close the connection,
 			con.close();
