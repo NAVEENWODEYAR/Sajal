@@ -18,7 +18,7 @@ public class SelectQuery
 		
 		// 3. Create the statement,
 			Statement st = con.createStatement();
-						ResultSet rs = st.executeQuery("SELECT * FROM TABLE2");
+						ResultSet rs = st.executeQuery("SELECT * FROM BIKE");
 						
 						while(rs.next())
 						{
@@ -30,7 +30,7 @@ public class SelectQuery
 	}
 	public static void main(String[] args) throws ClassNotFoundException, SQLException
 	{
-		System.out.println("\n SELECT * FROM TABLENAME");
+		System.out.println("\n SELECT * FROM TABLENAME\n");
 		selectData();
 	}
 
