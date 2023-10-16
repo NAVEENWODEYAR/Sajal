@@ -15,7 +15,7 @@ public class CalciTest1
 	public void testAdd()
 	{			
 		int actual = calci.add(1, 1);
-		int expected = 2;
+		int expected = 21;
 		
 		// check both the values,
 		assertEquals(expected, actual);
