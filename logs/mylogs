@@ -38,3 +38,27 @@ From warn(),
 From fatal(), 
 2023-10-16 13:40:59,726 - com.log.Test [getLog] -(ERROR) 
 Ffom error(), 
+2023-10-16 13:43:49,179 - com.log.Test [getLog] -(INFO) 
+From info(), 
+2023-10-16 13:43:49,190 - com.log.Test [getLog] -(WARN) 
+From warn(), 
+2023-10-16 13:43:49,194 - com.log.Test [getLog] -(FATAL) 
+From fatal(), 
+2023-10-16 13:43:49,196 - com.log.Test [getLog] -(ERROR) 
+Ffom error(), 
+2023-10-16 13:45:07,986 - com.log.Test [getLog] -(INFO) 
+From info(), 
+2023-10-16 13:45:07,999 - com.log.Test [getLog] -(WARN) 
+From warn(), 
+2023-10-16 13:45:08,001 - com.log.Test [getLog] -(FATAL) 
+From fatal(), 
+2023-10-16 13:45:08,003 - com.log.Test [getLog] -(ERROR) 
+Ffom error(), 
+2023-10-16 13:45:34,808 - com.log.Test [getLog] -(INFO) 
+From info(), 
+2023-10-16 13:45:34,832 - com.log.Test [getLog] -(WARN) 
+From warn(), 
+2023-10-16 13:45:34,833 - com.log.Test [getLog] -(FATAL) 
+From fatal(), 
+2023-10-16 13:45:34,838 - com.log.Test [getLog] -(ERROR) 
+Ffom error(), 

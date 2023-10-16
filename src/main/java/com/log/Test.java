@@ -25,13 +25,15 @@ public class Test
 		int b = 10;
 		
 		System.out.println(a == b);
+		int c = 20;
+		System.out.println(a == c);
 	}
 	
 	public static void main(String[] args) 
 	{
 		System.out.println("\nWelcome");
 		getLog();
-		System.out.println("\n ************== **********");
+		System.out.println("\n ************ == **********");
 		doubleEquals();
 	}
 
