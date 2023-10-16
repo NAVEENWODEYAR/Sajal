@@ -22,3 +22,11 @@ From warn(),
 From fatal(), 
 2023-10-16 11:48:53,359 - com.log.Test [getLog] -(ERROR) 
 Ffom error(), 
+2023-10-16 11:51:02,447 - com.log.Test [getLog] -(INFO) 
+From info(), 
+2023-10-16 11:51:02,456 - com.log.Test [getLog] -(WARN) 
+From warn(), 
+2023-10-16 11:51:02,457 - com.log.Test [getLog] -(FATAL) 
+From fatal(), 
+2023-10-16 11:51:02,459 - com.log.Test [getLog] -(ERROR) 
+Ffom error(), 
