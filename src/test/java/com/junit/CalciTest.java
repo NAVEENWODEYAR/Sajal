@@ -20,4 +20,16 @@ public class CalciTest
 		// check both the values,
 		assertEquals(expected, actual);
 	}
+	
+	// for testing sub(),
+	@Test
+	public void testSub()
+	{
+		var calci = new Calci();
+		
+		int actual = calci.sub(1, 1);
+		int expected = 01;
+		
+		assertEquals(expected, actual);
+	}
 }
