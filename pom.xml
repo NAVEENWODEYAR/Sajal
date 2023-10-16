@@ -4,10 +4,10 @@
   <artifactId>Sajal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Sajal</name>
-  <description>arabic word</description>
+  <description>arabic word of log</description>
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>20</maven.compiler.source>
+		<maven.compiler.target>20</maven.compiler.target>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
