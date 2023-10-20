@@ -10,10 +10,10 @@ public class SelectQuery
 {
 	static void selectData() throws ClassNotFoundException,SQLException
 	{
-		// 1. Load the driver,
+		// 1. Load the driver.,
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		// 2. Establish the connection,
+		// 2. Establish the connection.,
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nandidb","root","boss");
 		
 		// 3. Create the statement,
