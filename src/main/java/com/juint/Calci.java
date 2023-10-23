@@ -4,25 +4,25 @@ public class Calci
 {
 	public int add(int a, int b)
 	{
-		System.out.println("\n****Addition******");
+		System.out.println("\n****1.Addition******");
 		return a+b;
 	}
 	
 	public int sub(int a, int b)
 	{
-		System.out.println("\n****Substraction******");
+		System.out.println("\n****2.Substraction******");
 		return a-b;
 	}
 	
 	public int mult(int a, int b)
 	{
-		System.out.println("\n****Product******");
+		System.out.println("\n****3.Product******");
 		return a*b;
 	}
 	
 	public int div(int a, int b)
 	{
-		System.out.println("\n****Division******");
+		System.out.println("\n****4.Division******");
 		return a/b;
 	}
 }
