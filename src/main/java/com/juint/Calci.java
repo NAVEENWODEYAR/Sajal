@@ -20,9 +20,11 @@ public class Calci
 		return a*b;
 	}
 	
-	public int div(int a, int b)
+	public float div(int a, int b)
 	{
 		System.out.println("\n****4.Division******");
 		return a/b;
 	}
+	
+	
 }
