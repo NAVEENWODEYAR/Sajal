@@ -21,7 +21,7 @@ public class TestClass
 		int prod = c.mult(a, b);	// 4
 		System.out.println("\n Product of numbers:"+prod);
 		
-		int div = c.div(a, b);		// 1
+		float div = c.div(a, b);		// 1
 		System.out.println("\n Division of numbers:"+div);
 	}
 
