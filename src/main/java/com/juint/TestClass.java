@@ -13,16 +13,16 @@ public class TestClass
 		
 		System.out.println("Nmbers for the calculation,"+a+" and "+b);
 		int sum = c.add(a, b);		// 4
-		System.out.println("\n Sum of numbers:"+sum);
+		System.out.println("\n 1.Sum of numbers:"+sum);
 		
 		int diff = c.sub(a, b);		// 0
-		System.out.println("\n Difference of numbers:"+diff);
+		System.out.println("\n 2.Difference of numbers:"+diff);
 		
 		int prod = c.mult(a, b);	// 4
-		System.out.println("\n Product of numbers:"+prod);
+		System.out.println("\n 3.Product of numbers:"+prod);
 		
 		float div = c.div(a, b);		// 1
-		System.out.println("\n Division of numbers:"+div);
+		System.out.println("\n 4.Division of numbers:"+div);
 	}
 
 }
