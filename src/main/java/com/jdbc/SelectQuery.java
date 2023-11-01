@@ -16,7 +16,7 @@ public class SelectQuery
 		// 2. Establish the connection.,
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nandidb","root","boss");
 		
-		// 3. Create the statement,
+		// 3. Create and execute the statement,
 			Statement st = con.createStatement();
 						ResultSet rs = st.executeQuery("SELECT * FROM BIKE");
 						
