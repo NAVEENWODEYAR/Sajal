@@ -16,7 +16,7 @@ public class Calci
 	
 	public int mult(int a, int b)
 	{
-		System.out.println("\n****3.Product******");
+		System.out.println("\n****3.multiplication******");
 		return a*b;
 	}
 	
