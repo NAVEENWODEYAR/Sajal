@@ -1,12 +1,18 @@
 package com.array;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ArraysBinarySearch 
 {
 	static void binarySearch(int [] arr)
 	{
-		int result = Arrays.binarySearch(arr, 5);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("\n Array given"+Arrays.toString(arr));
+		System.out.println("\n Enter the search key:");
+		int searchKey = sc.nextInt();
+		int result = Arrays.binarySearch(arr, searchKey);
 			if(result < 0)
 				System.out.println("\n Element not found");
 			else
@@ -17,6 +23,6 @@ public class ArraysBinarySearch
 	{
 		// Binary Search Example in Java using Arrays.binarySearch().,
 		int [] arr = {9,2,8,4,0,5,6,7};
-						
+		binarySearch(arr);
 	}
 }
