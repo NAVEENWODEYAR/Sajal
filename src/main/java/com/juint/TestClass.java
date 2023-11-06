@@ -5,7 +5,7 @@ public class TestClass
 
 	public static void main(String[] args) 
 	{
-		var c = new Calci();
+		Calci c = new Calci();
 		
 		// test the methods manually,
 		int a = 2;
