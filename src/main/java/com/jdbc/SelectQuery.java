@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class SelectQuery 
 {
-	static void selectData() throws ClassNotFoundException,SQLException
+	static void selectData() throws Exception
 	{
 		// 1. Load the driver.,
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -32,7 +32,14 @@ public class SelectQuery
 	public static void main(String[] args) throws ClassNotFoundException, SQLException
 	{
 		System.out.println("\n SELECT * FROM TABLENAME\n");
-		selectData();
+		try 
+		{
+			selectData();
+		} 
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
 	}
 
 }
