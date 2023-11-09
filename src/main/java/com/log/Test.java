@@ -11,12 +11,12 @@ public class Test
 	{
 		// Priorities, All>TRACE>DEBUG>INFO>WARN>ERROR>FATAL>OF
 		System.out.println("\n Logging levels,");
-		log.trace("\nFrom trace(),");
-		log.info("\nFrom info(),");
-		log.debug("\nFrom debug(),");
-		log.warn("\nFrom warn(),");
-		log.fatal("\nFrom fatal(),");
-		log.error("\nFfom error(),");
+		log.trace("\n From trace(),");
+		log.info("\n From info(),");
+		log.debug("\n From debug(),");
+		log.warn("\n From warn(),");
+		log.fatal("\n From fatal(),");
+		log.error("\n From error(),");
 	}
 	
 	static void doubleEquals()
