@@ -21,8 +21,8 @@ public class ArraysBinarySearch
 
 	public static void main(String[] args) 
 	{
-		// Binary Search Example in Java using Arrays.binarySearch().,
-		int [] arr = {9,2,8,4,0,5,6,7};
+		// Binary Search example in Java using Arrays.binarySearch().,
+		int [] arr = {9,2,8,4,0,5,6,7,8,9,4};
 		binarySearch(arr);
 	}
 }
