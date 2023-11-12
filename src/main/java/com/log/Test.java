@@ -33,7 +33,7 @@ public class Test
 	{
 		System.out.println("\nWelcome");
 		getLog();
-		System.out.println("\n ************ == operator **********");
+		System.out.println("\n ************ == operator , equals()**********");
 		doubleEquals();
 	}
 
