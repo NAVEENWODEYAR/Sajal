@@ -30,8 +30,8 @@ public class BinarySearch
 	
 	public static void main(String[] args) 
 	{
-		System.out.println("\n Binary Search");
-		int[] arr = {1,19,4,3,28,7,0,9,20,02};
+		System.out.println("\n Binary Search \n");
+		int[] arr = {1,19,4,3,28,7,0,9,20,02,07,01};
 		binarySearch(arr, 0,arr.length-1 , 28);
 	}
 
