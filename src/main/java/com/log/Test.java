@@ -31,7 +31,7 @@ public class Test
 	
 	public static void main(String[] args) 
 	{
-		System.out.println("\nWelcome");
+		System.out.println("\nWelcome\n");
 		getLog();
 		System.out.println("\n ************ == operator , equals()**********");
 		doubleEquals();
